@@ -88,7 +88,7 @@ const Testimonials: FC = memo(() => {
               {testimonials.map((testimonial, index) => {
                 const isActive = index === activeIndex;
                 return (
-                  <Testimonial isActive={isActive} key={`${testimonial.name}-${index}`} testimonial={testimonial} />
+                  <_Testimonial isActive={isActive} key={`${testimonial.name}-${index}`} testimonial={testimonial} />
                 );
               })}
             </div>
@@ -114,7 +114,7 @@ const Testimonials: FC = memo(() => {
   );
 });
 
-const Testimonial: FC<{ testimonial: Testimonial; isActive: boolean }> = memo(
+const _Testimonial: FC<{ testimonial: Testimonial; isActive: boolean }> = memo(
   ({ testimonial: { text, name, image }, isActive }) => (
     <div
       className={classNames(
