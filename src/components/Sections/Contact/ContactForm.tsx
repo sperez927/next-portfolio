@@ -1,5 +1,5 @@
-import { FC, memo, useCallback, useRef, useMemo, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { FC, memo, useCallback, useMemo, useRef, useState } from 'react';
 
 interface FormData {
   name: string;
@@ -69,7 +69,7 @@ const ContactForm: FC = memo(() => {
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
 
   return (
-    <form ref={form} className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
+    <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage} ref={form}>
       <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
       <input
         autoComplete="email"

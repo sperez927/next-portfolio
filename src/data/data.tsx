@@ -8,9 +8,9 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
 // import InstagramIcon from '../components/Icon/InstagramIcon';
 import DevCommunityIcon from '../components/Icon/DevCommunityIcon';
+import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
@@ -20,10 +20,10 @@ import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import reviewerImage1 from "../images/reviewers/JohnMichael.jpg";
-import reviewerImage2 from "../images/reviewers/AdrianMadrid.jpg";
-import reviewerImage3 from "../images/reviewers/MarketingDirector.jpg";
 import profilepic from '../images/profile-logo.png';
+import reviewerImage2 from "../images/reviewers/AdrianMadrid.jpg";
+import reviewerImage1 from "../images/reviewers/JohnMichael.jpg";
+import reviewerImage3 from "../images/reviewers/MarketingDirector.jpg";
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,

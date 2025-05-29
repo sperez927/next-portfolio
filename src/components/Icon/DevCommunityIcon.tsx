@@ -1,4 +1,5 @@
 import { FC, memo } from 'react';
+
 import Icon, { IconProps } from './Icon';
 
 const DevIcon: FC<IconProps> = memo((props) => (

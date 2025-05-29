@@ -1,5 +1,6 @@
 // components/TelegramIcon.tsx
 import { FC, memo } from 'react';
+
 import Icon, { IconProps } from './Icon';
 
 const TelegramIcon: FC<IconProps> = memo(props => (
