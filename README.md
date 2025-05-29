@@ -1,5 +1,4 @@
 # next-portfolio
-
 ## 🚀 Getting Started
 
 This portfolio is built with [Next.js](https://nextjs.org/) and deployed on Vercel.
