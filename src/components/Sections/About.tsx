@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import Image from 'next/image';
 import { FC, memo } from 'react';
 
-import { aboutData, SectionId } from '../../../../next-portfolio-origin/src/data/data';
+import { aboutData, SectionId } from '../../data/data';
 import Section from '../Layout/Section';
 
 //https://www.vistaprint.com/logomaker/download/share/683740c4a81ddf89699d8544

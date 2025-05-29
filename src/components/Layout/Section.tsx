@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { FC, memo, PropsWithChildren } from 'react';
 
-import { SectionId } from '../../../../next-portfolio-origin/src/data/data';
+import { SectionId } from '../../data/data';
 
 const Section: FC<
   PropsWithChildren<{ sectionId: SectionId; sectionTitle?: string; noPadding?: boolean; className?: string }>

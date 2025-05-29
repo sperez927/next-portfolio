@@ -3,10 +3,10 @@ import { FC, memo, UIEventHandler, useCallback, useEffect, useMemo, useRef, useS
 import Image from 'next/image';
 
 import { isApple, isMobile } from '../../config';
-import { SectionId, testimonial } from '../../../../next-portfolio-origin/src/data/data';
-import { Testimonial } from '../../../../next-portfolio-origin/src/data/dataDef';
-import useInterval from '../../../../next-portfolio-origin/src/hooks/useInterval';
-import useWindow from '../../../../next-portfolio-origin/src/hooks/useWindow';
+import { SectionId, testimonial } from '../../data/data';
+import { Testimonial } from '../../data/dataDef';
+import useInterval from '../../hooks/useInterval';
+import useWindow from '../../hooks/useWindow';
 import QuoteIcon from '../Icon/QuoteIcon';
 import Section from '../Layout/Section';
 

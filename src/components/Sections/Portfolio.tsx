@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { FC, memo, MouseEvent, useCallback, useEffect, useRef, useState } from 'react';
 
 import { isMobile } from '../../config';
-import { portfolioItems, SectionId } from '../../../../next-portfolio-origin/src/data/data';
-import { PortfolioItem } from '../../../../next-portfolio-origin/src/data/dataDef';
-import useDetectOutsideClick from '../../../../next-portfolio-origin/src/hooks/useDetectOutsideClick';
+import { portfolioItems, SectionId } from '../../data/data';
+import { PortfolioItem } from '../../data/dataDef';
+import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import Section from '../Layout/Section';
 
 const Portfolio: FC = memo(() => {

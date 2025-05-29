@@ -2,8 +2,8 @@ import { DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/reac
 import classNames from 'classnames';
 import { FC, memo } from 'react';
 
-import { contact, SectionId } from '../../../../../next-portfolio-origin/src/data/data';
-import { ContactType, ContactValue } from '../../../../../next-portfolio-origin/src/data/dataDef';
+import { contact, SectionId } from '../../../data/data';
+import { ContactType, ContactValue } from '../../../data/dataDef';
 import FacebookIcon from '../../Icon/FacebookIcon';
 import GithubIcon from '../../Icon/GithubIcon';
 import InstagramIcon from '../../Icon/InstagramIcon';
